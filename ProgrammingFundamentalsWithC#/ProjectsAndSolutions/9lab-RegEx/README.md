@@ -80,4 +80,4 @@ Examples
 | Input     | Output |
 | --------- | -----|
 | 13/Jul/1928, 10-Nov-1934, , 01/Jan-1951,f <br> 25.Dec.1937 23/09/1973, 1/Feb/2016 | Day: 13, Month: Jul, Year: 1928 <br> Day: 10, Month: Nov, Year: 1934 <br> Day: 25, Month: Dec, Year: 1937 |
-| 03-Mar-1878, 25/Apr/1915, 31-May-1916, 22/Jun-1941, <br> 25.Dec.1937, 23/09/1973 | Day: 03, Month: Mar, Year: 1878 <br> Day: 25, Month: Apr, Year: 1915 <br> Day: 31, Month: May, Year: 1916 Day: 25, Month: Dec, Year: 1937 |
+| 03-Mar-1878, 25/Apr/1915, 31-May-1916, 22/Jun-1941, <br> 25.Dec.1937, 23/09/1973 | Day: 03, Month: Mar, Year: 1878 <br> Day: 25, Month: Apr, Year: 1915 <br> Day: 31, Month: May, Year: 1916 <br> Day: 25, Month: Dec, Year: 1937 |
