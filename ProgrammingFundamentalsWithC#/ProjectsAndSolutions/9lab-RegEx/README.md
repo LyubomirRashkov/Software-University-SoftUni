@@ -1,7 +1,7 @@
-## LAB: REGULAR EXPRESSIONS C#
+## PROBLEMS DESCRIPTION - REGULAR EXPRESSIONS (Lecture)
 
 
-### 1.	Match Full Name
+### Problem 1.	Match Full Name
 Write a C# Program to match full names from a list of names and print them on the console.
 
 Writing the Regular Expression:
@@ -33,7 +33,7 @@ Examples
 | Bethany Taylor, Oliver miller, sophia Johnson, SARah Wilson, <br> John Smith, Sam	        Smith  | Bethany Taylor John <br> Smith |
 | Elvis Presley a a C C-Muhammad Ali EE PeterpeterJR-a a xi <br> ban D D bb b b-B B-c c EE-Michael Jackson DD peter smith B B <br> PETER BROWN IVAN DAVIES- | Elvis Presley Muhammad <br> Ali Michael Jackson |
 
-### 2.	Match Phone Number
+### Problem 2.	Match Phone Number
 Create a regular expression to match a valid phone number from Sofia. After you find all valid phones, print them on the console, separated by a comma and a space ", ".
 
 Compose the Regular Expression:
@@ -57,7 +57,7 @@ Examples
 | +359 2 222 2222,359-2-222-2222, +359/2/222/2222, +359-2 222 <br> 2222 +359 2-222-2222, +359-2-222-222, +359-2-222-22222 +359- <br> 2-222-2222 | +359 2 222 2222, +359- <br> 2-222-2222 |
 | +359 2 234 2324, 359-2-111-9876, +359/8/655/5432, +359-2 222 <br> 2222, +359 2-222-2222, +359-2-234-345, +359-2-123-45678, <br> +359-2-222-2222, +359 2 654 1234 | +359 2 234 2324, +359- <br> 2-222-2222, +359 2 654 <br> 1234 |
 
-### 3.	Match Dates
+### Problem 3.	Match Dates
 Write a program, which matches a date in the format "dd{separator}MMM{separator}yyyy". Use named capturing groups in your regular expression.
 
 Compose the Regular Expression:
