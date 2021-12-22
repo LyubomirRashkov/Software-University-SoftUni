@@ -71,8 +71,8 @@ Examples
 
 | Input     | Output |
 | --------- | -----|
-| %George%<Croissant>|2|10.3$ <br> %Peter%<Gum>|1|1.3$ <br> %Maria%<Cola>|1|2.4$ <br> end of shift | George: Croissant - 20.60 <br> Peter: Gum - 1.30 <br> Maria: Cola - 2.40 <br> Total income: 24.30 |
-| %InvalidName%<Croissant>|2|10.3$ <br> %Peter%<Gum>1.3$ <br> %Maria%<Cola>|1|2.4 <br> %Valid%<Valid>valid|10|valid20$ <br> end of shift | Valid: Valid - 200.00 <br> Total income: 200.00 |
+| %George%<Croissant>\|2\|10.3$ <br> %Peter%<Gum>\|1\|1.3$ <br> %Maria%<Cola>\|1\|2.4$ <br> end of shift | George: Croissant - 20.60 <br> Peter: Gum - 1.30 <br> Maria: Cola - 2.40 <br> Total income: 24.30 |
+| %InvalidName%<Croissant>\|2\|10.3$ <br> %Peter%<Gum>1.3$ <br> %Maria%<Cola>\|1\|2.4 <br> %Valid%<Valid>valid\|10\|valid20$ <br> end of shift | Valid: Valid - 200.00 <br> Total income: 200.00 |
 
 ### Problem 4.	Star Enigma
 The war is in its peak, but you, young Padawan, can turn the tides with your programming skills. You are tasked to create a program to decrypt the messages of The Order and prevent the death of hundreds of lives. 
@@ -120,7 +120,7 @@ Examples
 | Input     | Output |
 | --------- | -----|
 | 2 <br> STCDoghudd4=63333$D$0A53333 <br> EHfsytsnhf?8555&I&2C9555SR  | Attacked planets: 1 <br> -> Alderaa <br> Destroyed planets: 1 <br> -> Cantonica |
-| 3 <br> tt(''DGsvywgerx>6444444444%H%1B9444 <br> GQhrr|A977777(H(TTTT <br> EHfsytsnhf?8555&I&2C9555SR | Attacked planets: 0 <br> Destroyed planets: 2 <br> -> Cantonica <br> -> Coruscant |
+| 3 <br> tt(''DGsvywgerx>6444444444%H%1B9444 <br> GQhrr\|A977777(H(TTTT <br> EHfsytsnhf?8555&I&2C9555SR | Attacked planets: 0 <br> Destroyed planets: 2 <br> -> Cantonica <br> -> Coruscant |
 
 ### Problem 5.	Nether Realms
 Mighty battle is coming. In the stormy nether realms, demons are fighting against each other for supremacy in a duel from which only one will survive. 
@@ -156,7 +156,7 @@ Examples
 
 | Input     | Output |
 | --------- | -----|
-| M3ph-0.5s-0.5t0.0\*\*   | M3ph-0.5s-0.5t0.0\*\* - 524 health, 8.00 damageBethany Taylor John <br> Smith |
+| M3ph-0.5s-0.5t0.0\*\*   | M3ph-0.5s-0.5t0.0\*\* - 524 health, 8.00 damage |
 | M3ph1st0\*\*, Azazel | Azazel - 615 health, 0.00 damage  <br> M3ph1st0\*\* - 524 health, 16.00 damage |
 | Gos/ho | Gos/ho - 512 health, 0.00 damage |
 
