@@ -71,8 +71,8 @@ Examples
 
 | Input     | Output |
 | --------- | -----|
-| %George%<Croissant>\|2\|10.3$ <br> %Peter%<Gum>\|1\|1.3$ <br> %Maria%<Cola>\|1\|2.4$ <br> end of shift | George: Croissant - 20.60 <br> Peter: Gum - 1.30 <br> Maria: Cola - 2.40 <br> Total income: 24.30 |
-| %InvalidName%<Croissant>\|2\|10.3$ <br> %Peter%<Gum>1.3$ <br> %Maria%<Cola>\|1\|2.4 <br> %Valid%<Valid>valid\|10\|valid20$ <br> end of shift | Valid: Valid - 200.00 <br> Total income: 200.00 |
+| %George%\<Croissant\>\|2\|10.3$ <br> %Peter%\<Gum\>\|1\|1.3$ <br> %Maria%\<Cola\>\|1\|2.4$ <br> end of shift | George: Croissant - 20.60 <br> Peter: Gum - 1.30 <br> Maria: Cola - 2.40 <br> Total income: 24.30 |
+| %InvalidName%\<Croissant\>\|2\|10.3$ <br> %Peter%\<Gum\>1.3$ <br> %Maria%\<Cola\>\|1\|2.4 <br> %Valid%\<Valid\>valid\|10\|valid20$ <br> end of shift | Valid: Valid - 200.00 <br> Total income: 200.00 |
 
 ### Problem 4.	Star Enigma
 The war is in its peak, but you, young Padawan, can turn the tides with your programming skills. You are tasked to create a program to decrypt the messages of The Order and prevent the death of hundreds of lives. 
@@ -131,7 +131,7 @@ A demon's name contains his health and his damage.
 
 The sum of the asci codes of all characters (excluding numbers (0-9), arithmetic symbols ('+', '-', '*', '/') and delimiter dot ('.')) gives a demon's total health. 
 
-The sum of all numbers in his name forms his base damage. Note that you should consider the plus '+' and minus '-' signs (e.g. +10 is 10 and -10 is -10). However, there are some symbols ('*' and '/') that can further alter the base damage by multiplying or dividing it by 2 (e.g. in the name "m15*/c-5.0", the base damage is 15 + (-5.0) = 10 and then you need to multiply it by 2 (e.g. 10 * 2 = 20) and then divide it by 2 (e.g. 20 / 2 = 10)). 
+The sum of all numbers in his name forms his base damage. Note that you should consider the plus '+' and minus '-' signs (e.g. +10 is 10 and -10 is -10). However, there are some symbols ('\*' and '/') that can further alter the base damage by multiplying or dividing it by 2 (e.g. in the name "m15\*/c-5.0", the base damage is 15 + (-5.0) = 10 and then you need to multiply it by 2 (e.g. 10 * 2 = 20) and then divide it by 2 (e.g. 20 / 2 = 10)). 
 
 So, multiplication and division are applied only after all numbers are included in the calculation and in the order they appear in the name. 
 
@@ -161,15 +161,15 @@ Examples
 | Gos/ho | Gos/ho - 512 health, 0.00 damage |
 
 ### Problem 6.	Extract Emails
-Write a program to extract all email addresses from a given text. The text comes at the only input line. Print the emails on the console, each at a separate line. Emails are considered to be in format <user>@<host>, where: 
-+	<user> is a sequence of letters and digits, where '.', '-' and '_' can appear between them.
+Write a program to extract all email addresses from a given text. The text comes at the only input line. Print the emails on the console, each at a separate line. Emails are considered to be in format \<user\>@\<host\>, where: 
++	\<user\> is a sequence of letters and digits, where '.', '-' and '\_' can appear between them.
     +	Examples of valid users: "stephan", "mike03", "s.johnson", "st_steward", "softuni-bulgaria", "12345".
-    +	Examples of invalid users: ''--123", ".....", "nakov_-", "_steve", ".info". 
-+	<host> is a sequence of at least two words, separated by dots '.'. Each word is sequence of letters and can have hyphens '-' between the letters.
+    +	Examples of invalid users: ''--123", ".....", "nakov_-", "\_steve", ".info". 
++	\<host\> is a sequence of at least two words, separated by dots '.'. Each word is sequence of letters and can have hyphens '-' between the letters.
     +	Examples of hosts: "softuni.bg", "software-university.com", "intoprogramming.info", "mail.softuni.org". 
 	+	Examples of invalid hosts: "helloworld", ".unknown.soft.", "invalid-host-", "invalid-". 
 +	Examples of valid emails: info@softuni-bulgaria.org, kiki@hotmail.co.uk, no-reply@github.com, s.peterson@mail.uu.net, info-bg@software-university.software.academy. 
-+	Examples of invalid emails: --123@gmail.com, …@mail.bg, .info@info.info, _steve@yahoo.cn, mike@helloworld, mike@.unknown.soft., s.johnson@invalid-.
++	Examples of invalid emails: --123@gmail.com, …@mail.bg, .info@info.info, \_steve@yahoo.cn, mike@helloworld, mike@.unknown.soft., s.johnson@invalid-.
 
 Examples
 
