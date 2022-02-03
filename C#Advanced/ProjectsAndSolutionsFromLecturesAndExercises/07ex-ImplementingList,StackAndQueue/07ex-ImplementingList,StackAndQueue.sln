@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImplementingCustomList", "ImplementingCustomList\ImplementingCustomList.csproj", "{0ED44DDD-87B8-4778-83D6-708989E65622}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImplementingCustomList-Generic", "ImplementingCustomList-Generic\ImplementingCustomList-Generic.csproj", "{D218EE91-8F56-49E0-90A2-B24CA72C8579}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImplementingCustomStack", "ImplementingCustomStack\ImplementingCustomStack.csproj", "{EDDF8850-163C-4DA3-97DD-0E1DD6B02182}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImplementingCustomStack-Generic", "ImplementingCustomStack-Generic\ImplementingCustomStack-Generic.csproj", "{A5ACD214-EE14-4F8B-89A4-12A41FE9E978}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplementingCustomQueue", "ImplementingCustomQueue\ImplementingCustomQueue.csproj", "{CAA07D52-4347-47AF-A5F3-E1B5EC6C9FE3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImplementingCustomQueue-Generic", "ImplementingCustomQueue-Generic\ImplementingCustomQueue-Generic.csproj", "{1FE24764-32F3-4D80-B07C-261E79A12462}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0ED44DDD-87B8-4778-83D6-708989E65622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ED44DDD-87B8-4778-83D6-708989E65622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ED44DDD-87B8-4778-83D6-708989E65622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ED44DDD-87B8-4778-83D6-708989E65622}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D218EE91-8F56-49E0-90A2-B24CA72C8579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D218EE91-8F56-49E0-90A2-B24CA72C8579}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D218EE91-8F56-49E0-90A2-B24CA72C8579}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D218EE91-8F56-49E0-90A2-B24CA72C8579}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDDF8850-163C-4DA3-97DD-0E1DD6B02182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDDF8850-163C-4DA3-97DD-0E1DD6B02182}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDDF8850-163C-4DA3-97DD-0E1DD6B02182}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDDF8850-163C-4DA3-97DD-0E1DD6B02182}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5ACD214-EE14-4F8B-89A4-12A41FE9E978}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5ACD214-EE14-4F8B-89A4-12A41FE9E978}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5ACD214-EE14-4F8B-89A4-12A41FE9E978}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5ACD214-EE14-4F8B-89A4-12A41FE9E978}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAA07D52-4347-47AF-A5F3-E1B5EC6C9FE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAA07D52-4347-47AF-A5F3-E1B5EC6C9FE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAA07D52-4347-47AF-A5F3-E1B5EC6C9FE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAA07D52-4347-47AF-A5F3-E1B5EC6C9FE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FE24764-32F3-4D80-B07C-261E79A12462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FE24764-32F3-4D80-B07C-261E79A12462}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FE24764-32F3-4D80-B07C-261E79A12462}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FE24764-32F3-4D80-B07C-261E79A12462}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6992FBDB-A81F-4483-BDCE-262CD0858E3F}
+	EndGlobalSection
+EndGlobal
