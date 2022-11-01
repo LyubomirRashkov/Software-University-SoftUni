@@ -13,6 +13,7 @@ Information about the courses that I attended:
 |[C# OOP - February 2022](https://softuni.bg/trainings/3585/csharp-oop-february-2022)|Grade 6.00 (out of 6.00)|[Certificate](https://softuni.bg/certificates/details/130951/b1abe628)|
 |[MS SQL - May 2022](https://softuni.bg/trainings/3714/ms-sql-may-2022)|Grade 6.00 (out of 6.00)|[Certificate](https://softuni.bg/certificates/details/134807/1e5be2db)|
 |[Entity Framework Core - June 2022](https://softuni.bg/trainings/3709/entity-framework-core-june-2022)|Grade 6.00 (out of 6.00)|[Certificate](https://softuni.bg/certificates/details/138326/0bdadca1)|
+|[ASP.NET Fundamentals - септември 2022](https://softuni.bg/trainings/3853/asp-net-fundamentals-september-2022)|Grade 6.00 (out of 6.00)|[Certificate](https://softuni.bg/certificates/details/146511/53a9adfb)|
 ||||
 
 
