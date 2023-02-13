@@ -1,0 +1,63 @@
+body {
+    display: grid;
+    grid-template-columns: 100px auto;
+    grid-template-rows: 25vh 60vh calc(15vh - 2 * 10px - 2 * 8px);
+    gap: 10px;
+    grid-template-areas: 
+        "header header"
+        "aside main"
+        "footer footer";
+}
+
+header,
+aside, 
+main,
+footer {
+    border-radius: 3px;
+    background-color: rgb(181, 216, 255);
+    padding: 5px 10px;
+}
+
+header {
+    grid-area: header;
+    position: relative;
+}
+
+aside {
+    grid-area: aside;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
+
+header h1 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+aside ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+aside ul li a {
+    display: block;
+    padding: 5px 0px;
+    color:  rgb(86, 40, 129);
+}
+
+main ul li a {
+    color:  black;
+}
