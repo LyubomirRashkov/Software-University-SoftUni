@@ -1,0 +1,27 @@
+body {
+    padding: 24px;
+}
+
+header {
+    border-bottom: 2px solid rgb(0,0,0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    text-transform: uppercase;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}

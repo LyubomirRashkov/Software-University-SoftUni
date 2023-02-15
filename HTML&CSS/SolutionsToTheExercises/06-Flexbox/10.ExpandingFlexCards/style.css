@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    gap: 12px;
+}
+
+img {
+    width: 10%;
+    border-radius: 6px;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.3), 0 4px 6px -4px rgb(0 0 0 / 0.3);
+}
+
+.img-second {
+    flex-grow: 7;
+}
