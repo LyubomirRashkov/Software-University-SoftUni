@@ -1,0 +1,44 @@
+body {
+  background-color: #dadbdf;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-main {
+  background-color: #34628d;
+
+  position: sticky;
+  top: 0px;
+  z-index: 1000;
+}
+
+.header-main .nav {
+  position: absolute;
+  right: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.header-main .header__logo {
+  max-width: 70px;
+}
+
+.header-main .nav .nav__item {
+  display: inline-block;
+}
+
+.header-main .nav .nav__item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.header-main .nav .nav__item .nav__item__link {
+  color: white;
+  text-transform: uppercase;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+section {
+  padding: 25px 15px 15px 15px;
+}

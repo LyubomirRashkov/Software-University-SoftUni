@@ -1,0 +1,25 @@
+.panel {
+    padding: 15px;
+
+    background-color: rgb(253, 127, 53);
+
+    border-radius: 15px;
+
+    text-align: center;
+    color: white;
+
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.7), 0 4px 6px -4px rgb(0 0 0 / 0.7);
+}
+
+.panel .panel__icon{
+    font-size: 48px;
+
+    margin-bottom: 12px;
+}
+
+.panel .panel__text{
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
