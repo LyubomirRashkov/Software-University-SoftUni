@@ -1,0 +1,35 @@
+#how-it-works {
+    width: calc(100% - 2 * var(--page-padding-x-main));
+}
+
+#how-it-works .how-it-works__row {
+    display: flex;
+    align-items: center;
+    gap: 110px;
+}
+
+#how-it-works .how-it-works__row:not(:last-child) {
+    margin-bottom: 96px;
+}
+
+#how-it-works .how-it-works__row .row__img {
+    --rotate-deg: 360deg;
+    width: 50%;
+    max-width: 550px;
+    transition: all 1500ms ease-in-out;
+}
+
+#how-it-works .how-it-works__row .row__img:hover {
+    transform: scale(1.5) rotate(var(--rotate-deg));
+}
+
+#how-it-works .row__text .text__title{
+    color: var(--clr-white);
+    margin-bottom: 20px;
+}
+
+#how-it-works .row__text .text__desc {
+    color: var(--clr-neutral-500);
+    font-size: 20px;
+    line-height: 32px;
+}

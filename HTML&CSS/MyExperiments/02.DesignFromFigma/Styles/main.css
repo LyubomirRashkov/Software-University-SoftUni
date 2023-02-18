@@ -1,0 +1,79 @@
+:root {
+  --clr-white: #FFF;
+
+  --clr-primary: #001A57;
+  --clr-primary-800: #00308F;
+  --clr-primary-600: #0059F7;
+  --clr-primary-300: #689EFF;
+  --clr-primary-100: rgba(0, 89, 247, 0.16);
+
+  --clr-secondary: #66240A;
+  --clr-secondary-800: #C34B1E;
+  --clr-secondary-600: #F9724D;
+  --clr-secondary-300: #FBB6AB;
+  --clr-secondary-100: #FEF1EF;
+
+  --clr-neutral: #070E27;
+  --clr-neutral-800: #081131;
+  --clr-neutral-700: #162044;
+  --clr-neutral-600: #4E5A85;
+  --clr-neutral-500: #7E8BB6;
+  --clr-neutral-300: #CCD2E9;
+
+  --page-padding-x-main: 190px;
+  --page-padding-x-mini: 80px;
+}
+
+body {
+  background-color: var(--clr-neutral);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* --- Typography --- */
+
+h1 {
+  font-size: 56px;
+  line-height: 64px;
+}
+
+h2 {
+  font-size: 48px;
+  line-height: 64px;
+}
+
+h3 {
+  font-size: 36px;
+  line-height: 40px;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+h5 {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+/* --- Section setup --- */
+
+.section {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 64px 0;
+}
+
+.section .section__title {
+  color: var(--clr-white);
+  text-align: center;
+  margin-bottom: 96px;
+}
+
+.section .section__sub-title {
+  color: var(--clr-neutral-500);
+  text-align: center;
+  margin: 0px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
