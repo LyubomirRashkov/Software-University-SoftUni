@@ -1,0 +1,146 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(238, 238, 238);
+}
+
+.page {
+  padding: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+h1,
+h2,
+h3,
+blockquote {
+  font-family: "Georgia", serif;
+}
+
+header {
+  width: 100%;
+  text-transform: uppercase;
+  border-bottom: 3px solid lightgrey;
+}
+
+.container {
+  background-color: rgb(255, 255, 255);
+  border: 3px solid black;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.first-container {
+  height: 180px;
+  width: 120px;
+  float: right;
+  margin-left: 20px;
+}
+
+.clearfix {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 90;
+  width: 90%;
+}
+
+.blockquote-container {
+  display: flex;
+}
+
+.blockquote-container > p {
+  width: 100%;
+}
+
+blockquote {
+  width: 100%;
+  color: grey;
+  border-left: 3px solid grey;
+  padding-left: 30px;
+}
+
+#author {
+  text-align: right;
+}
+
+.second-container {
+  height: 120px;
+  width: 180px;
+  float: left;
+  margin-right: 20px;
+}
+
+p,
+h1,
+h2 {
+  --font-size: 23px;
+}
+
+@media (max-width: 1800px) {
+  p,
+  h1,
+  h2 {
+    --font-size: 21px;
+  }
+}
+
+@media (max-width: 1300px) {
+  p,
+  h1,
+  h2 {
+    --font-size: 18px;
+  }
+}
+
+@media (max-width: 800px) {
+  p,
+  h1,
+  h2 {
+    --font-size: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  p,
+  h1,
+  h2 {
+    --font-size: 14px;
+  }
+}
+
+@media (max-width: 500px) {
+  p,
+  h1,
+  h2 {
+    --font-size: 12px;
+  }
+
+  .blockquote-container {
+    flex-direction: column-reverse;
+  }
+
+  blockquote {
+    width: unset;
+  }
+}
+
+p {
+  font-size: var(--font-size);
+}
+
+h1 {
+  font-size: calc(2 * var(--font-size));
+}
+
+h2 {
+  font-size: calc(1.5 * var(--font-size));
+}

@@ -1,0 +1,349 @@
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+
+:root {
+  --clr-violet: #68347b;
+
+  --clr-white: white;
+  --clr-black: black;
+  --clr-grey-light: lightgrey;
+}
+
+/* Utilities */
+
+.header,
+.section,
+.footer {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+.divider {
+  height: 4px;
+  width: 125px;
+  background-color: var(--clr-black);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Header */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo .title {
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 10px;
+  color: var(--clr-violet);
+}
+
+.header .logo .desc {
+  font-size: 1.125rem;
+  text-transform: uppercase;
+}
+
+.header .nav__items {
+  display: flex;
+  gap: 2rem;
+}
+
+.header .nav__items .nav__item a {
+  text-decoration: none;
+  color: var(--clr-black);
+  font-size: 1.25rem;
+  letter-spacing: 1px;
+}
+
+.header .menu {
+  display: none;
+}
+
+/* Website */
+
+#website {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+#website .wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  justify-content: center;
+  align-items: flex-start;
+  width: 55%;
+}
+
+#website .wrapper .desc {
+  font-size: 1.25rem;
+  letter-spacing: 1.5px;
+}
+
+#website .wrapper .btn {
+  background-color: transparent;
+  border: 1px solid var(--clr-black);
+  border-radius: 0.25rem;
+  color: var(--clr-black);
+  padding: 0.25rem 1rem;
+}
+
+#website i {
+  transform: scale(12);
+}
+
+/* Cards */
+
+.cards {
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards .items {
+  margin-top: 2rem;
+  display: flex;
+  gap: 4rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.cards .items .item {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.cards .items .item .img-wrapper {
+  margin: 0 auto;
+  height: 200px;
+  width: 200px;
+}
+
+.cards .items .item .img-wrapper .img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 100%;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.5), 0 4px 6px -4px rgb(0 0 0 / 0.5);
+}
+
+.cards .items .item .title-wrapper {
+  text-align: center;
+}
+
+.cards .items .item .title-wrapper .title {
+  font-size: 1.5rem;
+}
+
+.cards .items .item .title-wrapper .desc {
+  font-size: 1.25rem;
+}
+
+.cards .items .item .desc {
+  text-align: center;
+  font-size: 1.25rem;
+  font-style: italic;
+}
+
+/* Sign-up */
+
+#sign-up {
+  background-color: var(--clr-violet);
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#sign-up .title {
+  color: var(--clr-white);
+}
+
+#sign-up .form {
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+#sign-up .form .input {
+  width: 60%;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 0.25rem;
+}
+
+#sign-up .form .btn {
+  width: 20%;
+  font-size: 1.125rem;
+  border: none;
+  border-radius: 0.25rem;
+}
+
+/* Testimonials */
+
+#testimonials {
+  margin-bottom: 8rem;
+}
+
+/* hr */
+
+hr {
+  height: 15px;
+  background-color: var(--clr-grey-light);
+}
+
+/* Footer */
+
+.footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer .logo {
+  width: 30%;
+}
+
+.footer .logo .desc {
+  font-size: 1.375rem;
+}
+
+.footer .links {
+  width: 30%;
+}
+
+.footer .links .title {
+  margin-bottom: 1rem;
+}
+
+.footer .items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.footer .items .item {
+  width: 50%;
+}
+
+.footer .items .item a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: var(--clr-black);
+}
+
+.footer .contacts {
+  width: 30%;
+}
+
+.footer .contacts .title {
+  margin-bottom: 1rem;
+}
+
+.footer .contacts .contact__items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.footer .contacts .contact__items .contact__item {
+  font-size: 1.375rem;
+}
+
+.footer .contacts .contact__items .contact__item i {
+  padding-right: 5px;
+}
+
+.footer .contacts .contact__items .contact__item:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.footer .contacts .contact__items .contact__item:last-child address {
+  font-style: normal;
+}
+
+@media (max-width: 768px) {
+  .header,
+  .section,
+  .footer {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .header .nav {
+    display: none;
+  }
+
+  .header .menu {
+    display: block;
+    background-color: transparent;
+    border: none;
+    font-size: 1.75rem;
+    font-weight: bold;
+  }
+
+  #website {
+    justify-content: space-between;
+  }
+
+  #website .wrapper {
+    width: 65%;
+  }
+
+  #website i {
+    transform: scale(9);
+    position: relative;
+    right: 75px
+  }
+
+  .cards .items {
+    padding-left: 7rem;
+    padding-right: 7rem;
+    align-items: flex-start;
+  }
+
+  .cards .items .item {
+    width: 40%;
+  }
+
+  #sign-up .form {
+    width: 95%;
+  }
+
+  .footer {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .footer .logo,
+  .footer .links,
+  .footer .contacts {
+    width: 100%;
+  }
+}
