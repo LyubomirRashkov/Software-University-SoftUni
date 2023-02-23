@@ -1,0 +1,55 @@
+:root {
+    --clr-orange: #FFA200;
+
+    --clr-grey: grey;
+    --clr-white: white;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    padding: 2rem;
+}
+
+.card {
+    width: 80vw;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    min-height: 60vh;
+}
+
+.card .header {
+    background-color: var(--clr-orange);
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: var(--clr-white);
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.card .header .icon {
+    font-size: 2rem;
+    font-weight: 400;
+    padding-right: 1.25rem;
+}
+
+.card .event {
+    padding: 1.5rem;
+}
+
+.card .event .event__time {
+    color: var(--clr-grey);
+}
+
+.card .event .event__title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.card .event .event__desc {
+    font-size: 1.25rem;
+    letter-spacing: 0.75px;
+}
