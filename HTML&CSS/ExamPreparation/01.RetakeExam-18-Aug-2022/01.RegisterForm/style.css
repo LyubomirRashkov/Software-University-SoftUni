@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap)");
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-grey: grey;
+    --clr-red: #AE3C33 ;
+    --clr-white: white;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    background-image: url(./Images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 60vw;
+    height: 65vh;
+    background-image: url(./Images/form-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2rem;
+    box-shadow: 1.5rem 1.5rem 1rem var(--clr-grey);
+    padding: 3rem;
+}
+
+.wrapper {
+    width: 45%;
+    text-align: center;
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+}
+
+.double {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.group {
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.rounded {
+    width: 100%;
+    padding: 0.875rem;
+    border: 1px solid var(--clr-grey);
+    border-radius: 2rem;
+    background-color: transparent;
+}
+
+.group-check {
+    text-align: left;
+}
+
+.group-check input {
+    transform: scale(1.5);
+    margin-right: 0.5rem;
+}
+
+label {
+    color: var(--clr-grey);
+}
+
+.btn {
+    background-color: var(--clr-red);
+    color: var(--clr-white);
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    width: 40%;
+    align-self: center;
+}
