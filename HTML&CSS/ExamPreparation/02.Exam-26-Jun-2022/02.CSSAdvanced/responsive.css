@@ -1,0 +1,75 @@
+@media (max-width: 600px){    
+    body {
+        width: 100%;
+        margin: unset;
+    }
+    
+    main {
+        width: 100%;
+        margin: unset;
+    }
+
+    .left-to-right:first-child {
+        width: 100%;
+        height: min-content;
+        padding-bottom: 8rem;
+    }
+
+    main .left-to-right article {
+        width: unset;
+        height: unset;
+        border-radius: 5rem;
+        padding: 3rem;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header p {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    button {
+        display: none;
+    }
+
+    main section:nth-child(2), main section:nth-child(4) {
+        width: 100%;
+        flex-direction: column;
+        padding-left: 5rem;
+    }
+
+    main section:nth-child(2) article, main section:nth-child(4) article {
+        width: 100%;
+        margin-left: unset;
+    }
+
+    main section:nth-child(2) article img, main section:nth-child(4) article img {
+        margin-top: 2rem;
+        width: unset;
+    }
+
+    main section.left-to-right:nth-child(3) {
+        width: 100%;
+    }
+
+    form {
+        max-width: 100%;
+    }
+
+    section form label input, section form textarea {
+        width: 100%;
+        padding-top: 15px;
+    }
+
+    section form label {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
