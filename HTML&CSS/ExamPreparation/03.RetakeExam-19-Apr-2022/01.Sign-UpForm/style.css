@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: lightgray;
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 1200px;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.5), 0 4px 6px -4px rgb(0 0 0 / 0.5);
+}
+
+.section .img-wrapper {
+    flex-basis: 50%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(./Image/cover.jpg);
+    background-repeat: no-repeat;   
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section .img-wrapper .link {
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    align-self: flex-start;
+}
+
+.section .img-wrapper .title {
+    font-size: 3rem;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    margin: 0;
+}
+
+.section .img-wrapper .subtitle {
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.section .img-wrapper .socials {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 2rem;
+    font-size: 1.5rem;
+}
+
+.section .form {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3rem;
+    background-color: white;
+    height: 100%;
+}
+
+.section .form .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 80%;
+}
+
+.section .form .wrapper * {
+    width: 100%;
+    font-size: 1.5rem;
+    height: 25%;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid grey;
+    padding: 1.5rem;
+}
+
+input::placeholder {
+    color: rgb(160, 160, 160);
+    font-size: 1.5rem;
+    letter-spacing: 1.75px;
+}
+
+label {
+    color: lightgrey;
+}
+
+.actions {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-start;
+}
+
+.actions .btn {
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem 3.5rem;
+    border-radius: 3rem;
+}
+
+.actions .registered {
+    color: grey;
+    font-size: 1.5rem;
+}
