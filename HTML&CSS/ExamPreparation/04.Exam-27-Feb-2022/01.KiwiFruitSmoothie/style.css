@@ -1,0 +1,89 @@
+body {
+    font-family: "PT Serif", serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 10rem;
+}
+
+.card {
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    background-image: url(./Images/image1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 0px 25px 3px rgba(0, 0, 0, 0.5);
+}
+
+.card .content {
+    flex-basis: 600px;
+    height: 100%;
+    padding-right: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.card .content .title {
+    flex-basis: 10%;
+    align-self: center;
+    font-size: 2.25rem;
+    margin-bottom: unset;
+}
+
+.card .content .wrapper {
+    flex-basis: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card .content .subtitle {
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+    border-top: 1px solid green;
+}
+
+.card .content .subtitle h2 {
+    margin-top: 0.75rem;
+}
+
+.card .content .products {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.card .accent {
+    color: green;
+    font-weight: bold;
+}
+
+.card .content .desc {
+    font-size: 1.5rem;
+}
+
+.card .content .table th,
+.card .content .table td {
+    border: 1px solid green;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.card .img-wrapper {
+    flex-basis: 600px;
+    height: 100%;
+}
+
+.card .img-wrapper .img {
+    height: 100%;
+    width: 100%;
+}
