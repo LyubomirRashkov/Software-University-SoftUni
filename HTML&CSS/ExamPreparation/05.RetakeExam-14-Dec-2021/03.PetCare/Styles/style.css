@@ -1,0 +1,310 @@
+:root {
+    --clr-orange: #F34515;
+
+    --padding-left: 18rem;
+    --padding-right: 18rem;
+
+    --clr-black: black;
+    --clr-white: white;
+    --clr-grey: grey;
+}
+
+/* Utilities */
+
+h1,
+h2,
+h3, 
+h4,
+h5,
+h6 {
+    font-family: "Poppins", sans-serif;
+}
+
+p,
+a {
+    font-family: "Open Sans", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: inherit;
+}
+
+.header,
+.section,
+.footer {
+    padding-left: var(--padding-left);
+    padding-right: var(--padding-right);
+}
+
+.accent {
+    font-weight: bold;
+}
+
+.btn {
+    font-size: 1.125rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 1rem 3.5rem;
+    border: none;
+    border-radius: 2rem;
+}
+
+.title {
+    font-size: 3.5rem;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+address {
+    font-style: normal;
+}
+
+/* Header */
+
+.header {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .nav__items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+/* Care */
+
+#care {
+    height: 800px;
+    position: relative;
+    margin-bottom: 8rem;
+}
+
+#care .bg {
+    height: 100%;
+    width: 100%;
+}
+
+#care .info {
+    height: 375px;
+    width: 450px;
+    position: absolute;
+    top: 225px;
+    left: var(--padding-left);
+    color: var(--clr-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#care .info .title {
+    font-size: 5rem;
+    font-weight: 400;
+    line-height: 1.1;
+}
+
+#care .info .desc {
+    width: 70%;
+}
+
+#care .info .btn {
+    color: var(--clr-orange);
+}
+
+#care .dog {
+    position: absolute;
+    top: 130px;
+    left: 600px;
+    transform: scale(1.05);
+}
+
+/* Services */
+
+#services {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 900px;
+    margin-bottom: 8rem;
+}
+
+#services .title-wrapper {
+    width: 50%;
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#services .title {
+    font-weight: bold;
+}
+
+#services .title-wrapper .desc {
+    text-align: center;
+    font-size: 1.125rem;
+}
+
+#services .cards {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#services .cards .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid var(--clr-orange);
+    border-radius: 0.5rem;
+    width: 31%;
+    height: 500px;
+    padding: 2rem;
+}
+
+#services .cards .card .img-wrapper {
+    position: relative;
+}
+
+#services .cards .card .img-wrapper .img {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#services .cards .card .content .content__title {
+    font-size: 1.75rem;
+    margin-bottom: 1.75rem;
+}
+
+#services .cards .card .content .content__desc {
+    line-height: 2;
+}
+
+/* We-care */
+
+#we-care {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#we-care .img-wrapper {
+    width: 45%;
+}
+
+#we-care .info {
+    width: 45%;
+    height: 500px;
+    padding-right: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+#we-care .info .desc {
+    font-size: 1.125rem;
+}
+
+#we-care .info .btn {
+    background-image: url(../Images/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: var(--clr-white);
+}
+
+/* Anipat */
+
+#anipat {
+    position: relative;
+}
+
+#anipat .info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    color: var(--clr-white);
+}
+
+#anipat .info .title {
+    font-weight: bold;
+}
+
+#anipat .info .desc {
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+#anipat .info .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.75rem;
+}
+
+#anipat .info .wrapper .btn {
+    background-color: var(--clr-white);
+    color: var(--clr-orange);
+}
+
+#anipat .info .wrapper .tel {
+    font-size: 1.25rem;
+}
+
+/* Footer */
+
+.footer {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.footer .parts {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer .parts .title {
+    margin-bottom: 2rem;
+    font-size: 1.675rem;
+    font-weight: bold;
+}
+
+.footer .parts .items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.75rem;
+}
+
+.footer .parts .items .item{
+    font-size: 1.25rem;
+    letter-spacing: 1.25px;
+    color: var(--clr-grey);
+}
+
+.footer .parts .part:last-child address {
+    width: 90%;
+}
