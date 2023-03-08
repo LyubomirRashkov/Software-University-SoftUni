@@ -1,0 +1,272 @@
+:root {
+  --clr-bg: #54546d;
+  --clr-violet: #9A5DC6;
+  --clr-grey-light: lightgrey;
+  --clr-grey-light-2: #F8F8F8;
+
+  --clr-black: black;
+  --clr-white: white;
+  --clr-grey: grey;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Utilities */
+
+.header,
+.section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo {
+  width: 175px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.header .nav .nav__items {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.header .nav .nav__items .nav__item a {
+  text-decoration: none;
+  color: var(--clr-black);
+  font-size: 1.125rem;
+}
+
+/* Taxes */
+
+#taxes {
+  background-color: var(--clr-bg);
+  height: 350px;
+}
+
+#taxes .img {
+  position: relative;
+  top: 80px;
+  right: 70px;
+}
+
+#taxes .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  position: relative;
+  bottom: 185px;
+}
+
+#taxes .content .title {
+  color: var(--clr-white);
+  font-size: 2.125rem;
+  font-weight: 400;
+}
+
+#taxes .content .plans {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+  max-width: 1200px;
+}
+
+#taxes .content .plans .plan {
+  width: 32%;
+  height: 350px;
+  border: 1px solid var(--clr-grey-light);
+  border-radius: 1rem;
+  text-align: center;
+  overflow: hidden;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.2), 0 4px 6px -4px rgb(0 0 0 / 0.2);
+}
+
+#taxes .content .plans .plan .info {
+  height: 75%;
+  background-color: var(--clr-white);
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+#taxes .content .plans .plan .info .title {
+  color: var(--clr-black);
+  font-size: 1.5rem;
+  padding-top: 1rem;
+}
+
+#taxes .content .plans .plan .info .subtitle,
+#taxes .content .plans .plan .info .desc {
+  color: var(--clr-grey);
+  padding-top: 1rem;
+}
+
+
+#taxes .content .plans .plan .btn {
+    background-color: var(--clr-violet);
+    border: none;
+    border-radius: 2rem;
+    color: var(--clr-white);
+    padding: 0.5rem 1.5rem;
+    margin-top: 5rem;
+}
+
+#taxes .content .plans .plan .price-wrapper {
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--clr-white);
+}
+
+#taxes .content .plans .plan:nth-child(1) .price-wrapper {
+  background: linear-gradient(
+    270deg,
+    rgba(73, 212, 126, 1) 0%,
+    rgba(4, 156, 62, 1) 100%
+  );
+}
+
+#taxes .content .plans .plan:nth-child(2) .price-wrapper {
+  background: linear-gradient(
+    270deg,
+    rgba(97, 152, 204, 1) 0%,
+    rgba(76, 107, 136, 1) 100%
+  );
+}
+
+#taxes .content .plans .plan:nth-child(3) .price-wrapper {
+  background: linear-gradient(
+    270deg,
+    rgba(139, 124, 224, 1) 0%,
+    rgba(76, 58, 167, 1) 100%
+  );
+}
+
+#taxes .content .plans .plan .price-wrapper .price-wrapper-inner {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#taxes .content .plans .plan .price-wrapper .price-wrapper-inner .desc {
+  font-size: 0.75rem;
+}
+
+#taxes .content .plans .plan .price-wrapper .divider {
+  height: 65px;
+  width: 1px;
+  background-color: var(--clr-white);
+}
+
+#taxes .content .plans .plan:nth-child(1) .price-wrapper .price-wrapper-inner {
+    width: 100%;
+}
+
+/* Form */
+
+#form {
+    margin-top: 15rem;
+    max-width: 1000px;
+}
+
+#form .title {
+    font-size: 1.75rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+#form .desc {
+    color: var(--clr-grey);
+    margin-bottom: 1.5rem;
+}
+
+#form .table {
+    width: 100%;
+    border-radius: 0.375rem;
+    overflow: hidden;
+    background-color: var(--clr-grey-light);
+    color: var(--clr-grey);
+    border-collapse: collapse;
+}
+
+#form .table tr td:nth-child(1) {
+    width: 80%;
+}
+ 
+#form .table tr:nth-child(even) {
+    background-color: var(--clr-grey-light-2);
+}
+
+#form .table td {
+    padding: 0.5rem;
+}
+
+#form .table img {
+    width: 1rem;
+}
+
+/* Financing */
+
+#financing {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+#financing .title {
+    font-size: 1.875rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+#financing .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#financing .wrapper .desc-wrapper {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    color: var(--clr-grey);
+}
+
+/* Footer */
+
+.footer {
+    background-color: var(--clr-bg);
+    text-align: center;
+}
+
+.footer .text {
+    color: var(--clr-grey);
+    padding: 1.5rem;
+}

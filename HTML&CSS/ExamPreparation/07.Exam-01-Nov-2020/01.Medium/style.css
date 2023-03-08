@@ -1,0 +1,77 @@
+body {
+    font-family: "Helvetica", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10rem;
+}
+
+h1 {
+    font-family: "Georgia", serif;
+}
+
+.section {
+    max-width: 1200px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.section .title {
+    font-size: 5rem;
+    margin: unset;
+}
+
+.section .subtitle {
+    font-size: 1.75rem;
+    font-weight: 400;
+    color: grey;
+}
+
+.section .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.section .wrapper .btn {
+    width: 30%;
+    background-color: #03A87C;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1.675rem;
+    font-weight: bold;
+    padding: 1.25rem;
+}
+
+.section .wrapper .desc-wrapper {
+    width: 55%;
+}
+
+.section .wrapper .desc-wrapper .bold {
+    font-weight: bold;
+    font-size: 1.675rem;
+}
+
+.section .wrapper .desc-wrapper .desc {
+    font-size: 1.675rem;
+    line-height: 1.3;
+    color: grey;
+    margin-top: 3rem;
+    margin-bottom: unset;
+}
+
+.section .wrapper .desc-wrapper .desc .accent {
+    background-color: #CEFDE9;
+}
+
+.section .divider {
+    height: 2px;
+    width: 450px;
+    background-color: grey;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
