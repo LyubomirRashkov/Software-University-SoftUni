@@ -1,0 +1,110 @@
+:root {
+    --clr-blue-light: #E3F3FD;
+    --clr-blue: #44A9F8;
+
+    --clr-black: black;
+    --clr-white: white;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1,
+.price {
+  font-family: "Montserrat", sans-serif;
+}
+
+.section {
+    width: 1200px;
+    height: 500px;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    border: 3px solid var(--clr-black);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.section .info {
+    width: 42%;
+    background-color: var(--clr-blue-light);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.section .info .title {
+    margin: unset;
+}
+
+.section .info .items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.section .info .items .item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.section .info .items .item i {
+    color: var(--clr-blue);
+}
+
+.section .info .items .item p {
+    margin: unset;
+    font-size: 0.875rem;
+}
+
+.section .price {
+    width: 42%;
+    border: 5px solid var(--clr-blue);
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.section .price .title {
+    font-size: 1.25rem;
+    margin: unset;
+}
+
+.section .price .title .accent {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--clr-blue);
+}
+
+.section .price .btn {
+    background-color: var(--clr-blue);
+    color: var(--clr-white);
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.2), 0 4px 6px -4px rgb(0 0 0 / 0.2);
+    padding: 0.75rem 3.5rem;
+    font-size: 1.125rem;
+}

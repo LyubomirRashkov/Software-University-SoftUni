@@ -1,0 +1,36 @@
+@media screen and (max-width: 600px) {
+    .thumbnails {
+        flex-direction: column;
+    }
+
+    .thumbnails > div {
+        width: 100%;
+        margin: 0 0 2em 0;
+    }
+
+    .thumbnails a {
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .thumbnails a img {
+        height: 80%;
+    }
+
+    .thumbnails a h3 {
+        font-size: 1.75rem;
+        margin: unset;
+        margin-top: 0.875rem;
+        margin-bottom: 0.875rem;
+    }
+
+    p {
+        font-size: 1.675rem;
+    }
+
+    footer a {
+        border-bottom: dotted 3px rgba(255, 255, 255, 0.4)
+    }
+}
