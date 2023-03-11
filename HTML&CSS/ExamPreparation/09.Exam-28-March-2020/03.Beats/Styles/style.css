@@ -1,0 +1,253 @@
+:root {
+  --clr-red: #ff0000;
+  --clr-grey-light: #fbfcff;
+  --clr-grey: #dadada;
+  --clr-grey-dark: #575757;
+
+  --clr-white: white;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Utilities */
+
+.btn {
+  background-color: var(--clr-red);
+  color: var(--clr-white);
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding: 1rem 4rem;
+  border: none;
+  border-radius: 4rem;
+}
+
+/* Header */
+
+.header {
+  padding: 3rem 18rem;
+}
+
+.header .nav .nav__items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .nav .nav__items .nav__item a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  color: var(--clr-grey-dark);
+}
+
+/* Solo */
+
+#solo {
+  padding: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#solo .wrapper {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#solo .wrapper .title {
+  font-size: 4.75rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+#solo .wrapper .desc {
+  font-size: 1.5rem;
+  line-height: 1.75;
+}
+
+#solo .wrapper .desc:last-of-type {
+    margin-bottom: 3rem;
+}
+
+#solo .img {
+  width: 55%;
+  transform: scale(1.1);
+  position: relative;
+  left: 125px;
+}
+
+/* Powerbeats */
+
+#powerbeats {
+    background-color: var(--clr-grey-light);
+    padding: 10rem 6rem 6rem 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#powerbeats .img {
+    width: 45%;
+}
+
+#powerbeats .wrapper {
+    width: 48%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#powerbeats .wrapper .inner-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#powerbeats .wrapper .inner-wrapper .title {
+    font-size: 7.25rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: unset;
+    line-height: 1.1;
+}
+
+#powerbeats .wrapper .inner-wrapper .subtitle {
+    align-self: flex-end;
+    margin-top: unset;
+    text-transform: uppercase;
+    font-size: 1.75rem;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+
+#powerbeats .wrapper .inner-wrapper .subtitle .accent {
+    font-weight: bold;
+}
+
+#powerbeats .wrapper .desc {
+    font-size: 1.875rem;
+    line-height: 1.5;
+}
+
+#powerbeats .wrapper .price-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+#powerbeats .wrapper .price-wrapper .price {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+/* Try */
+
+#try {
+    background-color: var(--clr-grey-dark);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    color: var(--clr-white);
+}
+
+#try .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+#try .wrapper .accent {
+    font-weight: bold;
+}
+
+#try .wrapper .img {
+    width: 175px;
+}
+
+#try a {
+    color: var(--clr-white);
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 3px solid var(--clr-white);
+    padding: 0 0 0.75rem 0;
+}
+
+/* Life */
+
+#life {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+#life .img {
+    width: 50%;
+}
+
+#life .wrapper {
+    width: 50%;
+    background-color: var(--clr-grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#life .wrapper .inner-wrapper {
+    width: 50%;
+    padding-left: 7rem;
+}
+
+#life .wrapper .inner-wrapper .title {
+    text-transform: uppercase;
+    font-size: 14rem;
+    letter-spacing: -25px;
+    line-height: 1.1;
+}
+
+#life .wrapper .inner-wrapper .subtitle {
+    font-size: 5rem;
+    font-weight: 400;
+    letter-spacing: -8px;
+}
+
+#life .wrapper .inner-wrapper .subtitle .accent {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--clr-red);
+}
+
+#life .wrapper .img-wrapper {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#life .wrapper .img-wrapper .inner-img {
+    width: 70%;
+}
+
+/* Footer */
+
+.footer {
+    padding: 3rem;
+    font-size: 3rem;
+    color: var(--clr-grey-dark);
+    text-align: center;
+}
