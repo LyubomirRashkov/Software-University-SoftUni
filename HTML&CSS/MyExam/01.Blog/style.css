@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+:root {
+    --clr-bg: #F6E0B5;
+    --clr-main: #66545E;
+
+    --clr-white: white;
+    --clr-black: black;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.section {
+    height: 750px;
+    width: 1700px;
+    background-color: var(--clr-bg);
+    color: var(--clr-main);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 3rem;
+}
+
+.section .cards {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "movie celebrity"
+    "tv arts";
+    gap: 1.5rem 3rem;
+}
+
+.section .cards .movie {
+    grid-area: movie;
+}
+
+.section .cards .celebrity {
+    grid-area: celebrity;
+}
+
+.section .cards .tv {
+    grid-area: tv;
+}
+
+.section .cards .arts {
+    grid-area: arts;
+}
+
+.section .cards .card {
+    border: 2px solid var(--clr-black);
+    border-radius: 1.5rem;
+    overflow: hidden;
+    height: calc((750px - (2 * 3rem) - 1.5rem) / 2);
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5), 0 8px 10px -6px rgb(0 0 0 / 0.5);
+}
+
+.section .cards .card .img-wrapper {
+    height: 80%;
+}
+
+.section .cards .card .img-wrapper .img {
+    height: 100%;
+    width: 100%;
+}
+
+.section .cards .card .content {
+    height: 20%;
+    background-color: var(--clr-main);
+    color: var(--clr-white);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.section .cards .card .content a {
+    margin: unset;
+    font-size: 2.125rem;
+    font-weight: bold;
+    padding-left: 1rem;
+}
+
+.section .info {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;    
+}
+
+.section .info .title {
+    font-size: 2rem;
+}
+
+.section .info .items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.section .info .items .item {
+    padding: 0.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.section .info .items .item a {
+    text-decoration: none;
+    color: inherit;
+}
