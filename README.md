@@ -15,6 +15,7 @@ Information about the courses that I attended:
 |[Entity Framework Core - June 2022](https://softuni.bg/trainings/3709/entity-framework-core-june-2022)|Grade 6.00 (out of 6.00)|[Certificate](https://softuni.bg/certificates/details/138326/0bdadca1)|
 |[ASP.NET Fundamentals - септември 2022](https://softuni.bg/trainings/3853/asp-net-fundamentals-september-2022)|Grade 6.00 (out of 6.00)|[Certificate](https://softuni.bg/certificates/details/146511/53a9adfb)|
 |[ASP.NET Advanced - октомври 2022](https://softuni.bg/trainings/3854/asp-net-advanced-october-2022)|Grade 6.00 (out of 6.00)|[Certificate](https://softuni.bg/certificates/details/153270/9514db46)|
+|[HTML & CSS - януари 2023](https://softuni.bg/trainings/3975/html-and-css-january-2023)|Grade 6.00 (out of 6.00)|[Certificate](https://softuni.bg/certificates/details/163010/149514dd)|
 ||||
 
 
