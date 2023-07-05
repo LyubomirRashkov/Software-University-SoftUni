@@ -17,6 +17,7 @@ Information about the courses that I attended:
 |[ASP.NET Advanced - October 2022](https://softuni.bg/trainings/3854/asp-net-advanced-october-2022)|Grade 6.00 (out of 6.00)|[Certificate](https://softuni.bg/certificates/details/153270/9514db46)|
 |[HTML & CSS - January 2023](https://softuni.bg/trainings/3975/html-and-css-january-2023)|Grade 6.00 (out of 6.00)|[Certificate](https://softuni.bg/certificates/details/163010/149514dd)|
 |[JavaScript Front-End - February 2023](https://softuni.bg/trainings/3976/js-front-end-february-2023)|Grade 6.00 (out of 6.00)|[Certificate](https://softuni.bg/certificates/details/168376/2a684bd7)|
+|[Algorithms Fundamentals with C# - май 2023](https://softuni.bg/trainings/4175/algorithms-fundamentals-with-c-sharp-may-2023)|Grade 6.00 (out of 6.00)|[Certificate](https://softuni.bg/certificates/details/176629/4d4e5c9b)|
 ||||
 
 
