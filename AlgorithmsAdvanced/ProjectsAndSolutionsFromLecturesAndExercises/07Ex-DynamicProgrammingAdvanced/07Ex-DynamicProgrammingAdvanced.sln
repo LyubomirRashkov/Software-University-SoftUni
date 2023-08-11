@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.CableMerchant-Iterative", "01.CableMerchant-Iterative\01.CableMerchant-Iterative.csproj", "{6B3B4EB0-1674-4CAE-A00C-B901276B28AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.CableMerchant-Recursive", "01.CableMerchant-Recursive\01.CableMerchant-Recursive.csproj", "{011A901B-5134-456C-A489-B2007E9345FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.BattlePoints", "02.BattlePoints\02.BattlePoints.csproj", "{5C9CB922-68F2-405A-A02D-E4532C9BAA23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.LongestStringChain", "03.LongestStringChain\03.LongestStringChain.csproj", "{B6AD5E0D-5D95-494B-AECA-C537A19E1CCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.LongestZigZagSubsequence", "04.LongestZigZagSubsequence\04.LongestZigZagSubsequence.csproj", "{E9A9228F-4732-483F-82A7-040CEB7BA09E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B3B4EB0-1674-4CAE-A00C-B901276B28AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B3B4EB0-1674-4CAE-A00C-B901276B28AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B3B4EB0-1674-4CAE-A00C-B901276B28AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B3B4EB0-1674-4CAE-A00C-B901276B28AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{011A901B-5134-456C-A489-B2007E9345FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{011A901B-5134-456C-A489-B2007E9345FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{011A901B-5134-456C-A489-B2007E9345FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{011A901B-5134-456C-A489-B2007E9345FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C9CB922-68F2-405A-A02D-E4532C9BAA23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C9CB922-68F2-405A-A02D-E4532C9BAA23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C9CB922-68F2-405A-A02D-E4532C9BAA23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C9CB922-68F2-405A-A02D-E4532C9BAA23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6AD5E0D-5D95-494B-AECA-C537A19E1CCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6AD5E0D-5D95-494B-AECA-C537A19E1CCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6AD5E0D-5D95-494B-AECA-C537A19E1CCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6AD5E0D-5D95-494B-AECA-C537A19E1CCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9A9228F-4732-483F-82A7-040CEB7BA09E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9A9228F-4732-483F-82A7-040CEB7BA09E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9A9228F-4732-483F-82A7-040CEB7BA09E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9A9228F-4732-483F-82A7-040CEB7BA09E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A1E712F-204E-43DA-8D10-3EE2CA82E96C}
+	EndGlobalSection
+EndGlobal
