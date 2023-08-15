@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.TrainsPartThree-Dictionaries", "01.TrainsPartThree-Dictionaries\01.TrainsPartThree-Dictionaries.csproj", "{19B5F01C-5E4A-4F24-8BEB-B56D56D641AC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.TrainsPartThree-ArrayOfLists", "01.TrainsPartThree-ArrayOfLists\01.TrainsPartThree-ArrayOfLists.csproj", "{78DE186A-66CB-4A00-B121-E18975C0ADD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Medivac", "03.Medivac\03.Medivac.csproj", "{1D7933CE-8B1F-476F-BE78-7A1E1E55E0FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.ReaperMan-Dijkstra", "02.ReaperMan-Dijkstra\02.ReaperMan-Dijkstra.csproj", "{EE5047BD-B126-43D4-8CD9-2014DE6CDC58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.ReaperMan-Bellman-Ford", "02.ReaperMan-Bellman-Ford\02.ReaperMan-Bellman-Ford.csproj", "{AF4B2C3D-6994-423B-9348-92CA806E157C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19B5F01C-5E4A-4F24-8BEB-B56D56D641AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19B5F01C-5E4A-4F24-8BEB-B56D56D641AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19B5F01C-5E4A-4F24-8BEB-B56D56D641AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19B5F01C-5E4A-4F24-8BEB-B56D56D641AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78DE186A-66CB-4A00-B121-E18975C0ADD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78DE186A-66CB-4A00-B121-E18975C0ADD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78DE186A-66CB-4A00-B121-E18975C0ADD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78DE186A-66CB-4A00-B121-E18975C0ADD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D7933CE-8B1F-476F-BE78-7A1E1E55E0FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D7933CE-8B1F-476F-BE78-7A1E1E55E0FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D7933CE-8B1F-476F-BE78-7A1E1E55E0FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D7933CE-8B1F-476F-BE78-7A1E1E55E0FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE5047BD-B126-43D4-8CD9-2014DE6CDC58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE5047BD-B126-43D4-8CD9-2014DE6CDC58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE5047BD-B126-43D4-8CD9-2014DE6CDC58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE5047BD-B126-43D4-8CD9-2014DE6CDC58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF4B2C3D-6994-423B-9348-92CA806E157C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF4B2C3D-6994-423B-9348-92CA806E157C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF4B2C3D-6994-423B-9348-92CA806E157C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF4B2C3D-6994-423B-9348-92CA806E157C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E33BE788-4AFC-40EA-AE0B-8E862672D7C2}
+	EndGlobalSection
+EndGlobal
