@@ -18,7 +18,7 @@ Information about the courses that I attended:
 |[HTML & CSS - January 2023](https://softuni.bg/trainings/3975/html-and-css-january-2023)|Grade 6.00 (out of 6.00)|[Certificate](https://softuni.bg/certificates/details/163010/149514dd)|
 |[JavaScript Front-End - February 2023](https://softuni.bg/trainings/3976/js-front-end-february-2023)|Grade 6.00 (out of 6.00)|[Certificate](https://softuni.bg/certificates/details/168376/2a684bd7)|
 |[Algorithms Fundamentals with C# - May 2023](https://softuni.bg/trainings/4175/algorithms-fundamentals-with-c-sharp-may-2023)|Grade 6.00 (out of 6.00)|[Certificate](https://softuni.bg/certificates/details/176629/4d4e5c9b)|
-|[Algorithms Advanced with C# - July 2023](https://softuni.bg/trainings/4178/algorithms-advanced-with-c-sharp-july-2023)|Grade 5.64 (out of 6.00)|[Certificate](https://softuni.bg/certificates/details/184501/e9382fac)|
+|[Algorithms Advanced with C# - July 2023](https://softuni.bg/trainings/4178/algorithms-advanced-with-c-sharp-july-2023)|Grade 6.00 (out of 6.00)|[Certificate](https://softuni.bg/certificates/details/184501/e9382fac)|
 ||||
 
 
