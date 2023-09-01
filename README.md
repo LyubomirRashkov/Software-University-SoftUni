@@ -3,6 +3,8 @@ This repository holds projects and solutions of my homeworks, exercises, worksho
 
 ---------------------------------------------------------------------------------------------------------
 
+Take a look at my [diploma](https://softuni.bg/certificates/details/185052/18601225)
+
 Information about the courses that I attended:
 
 ||||
