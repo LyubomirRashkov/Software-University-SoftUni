@@ -22,6 +22,7 @@ Information about the courses that I attended:
 |[Algorithms Fundamentals with C# - May 2023](https://softuni.bg/trainings/4175/algorithms-fundamentals-with-c-sharp-may-2023)|Grade 6.00 (out of 6.00)|[Certificate](https://softuni.bg/certificates/details/176629/4d4e5c9b)|
 |[Algorithms Advanced with C# - July 2023](https://softuni.bg/trainings/4178/algorithms-advanced-with-c-sharp-july-2023)|Grade 6.00 (out of 6.00)|[Certificate](https://softuni.bg/certificates/details/184501/e9382fac)|
 |[Data Structures Fundamentals with C# - September 2023](https://softuni.bg/trainings/4266/data-structures-fundamentals-with-csharp-september-2023)|Grade 6.00 (out of 6.00)|[Certificate](https://softuni.bg/certificates/details/185515/4bfa0ed0)|
+|[Data Structures Advanced with C# - November 2023](https://softuni.bg/trainings/4273/data-structures-advanced-with-csharp-november-2023)|Grade 6.00 (out of 6.00)|[Certificate](https://softuni.bg/certificates/details/199051/ac6ae75d)|
 ||||
 
 
